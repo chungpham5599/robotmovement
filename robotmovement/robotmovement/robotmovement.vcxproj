@@ -127,7 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DimensionCommand.cpp" />
+    <ClCompile Include="LineToCommand.cpp" />
+    <ClCompile Include="MoveToCommand.cpp" />
+    <ClCompile Include="MoveToCommand.h" />
+    <ClCompile Include="Grid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Robot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="DimensionCommand.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="LineToCommand.h" />
+    <ClInclude Include="Robot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

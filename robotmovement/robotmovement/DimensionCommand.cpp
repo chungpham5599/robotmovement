@@ -1,5 +1,6 @@
 #include "DimensionCommand.h"
 
-void DimensionCommand::Execute()
+void DimensionCommand::Execute(Robot& robot)
 {
+	
 }

@@ -1,5 +1,6 @@
 #include "LineToCommand.h"
 
-void LineToCommand::Execute()
+void LineToCommand::Execute(Robot& robot)
 {
+	robot.LineTo(x, y);
 }

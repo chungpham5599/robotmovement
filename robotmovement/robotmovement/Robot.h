@@ -4,9 +4,10 @@
 class Robot
 {
 private:
+	Grid& grid;
 	int x, y;
 public:
-	Robot() : x(0), y(0) {}
+	Robot(Grid& grid) : grid(grid), x(0), y(0) {}
 
 	void MoveTo(int x, int y);
 	void LineTo(int x, int y);

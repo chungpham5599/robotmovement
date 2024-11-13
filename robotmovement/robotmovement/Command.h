@@ -1,7 +1,9 @@
 #pragma once
+#include "Robot.h"
 
 class Command
 {
-	virtual void Execute() = 0;
+public:
+	virtual void Execute(Robot& robot) = 0;
 };
 

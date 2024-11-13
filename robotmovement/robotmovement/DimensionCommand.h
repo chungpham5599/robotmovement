@@ -3,5 +3,9 @@
 
 class DimensionCommand : public Command
 {
-	void Execute() override;
+private:
+	int dimension;
+public:
+	DimensionCommand(int _dimension) : dimension(_dimension) {}
+	void Execute(Robot& robot) override;
 };
